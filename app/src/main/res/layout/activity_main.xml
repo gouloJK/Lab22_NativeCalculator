@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1117">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Math Processor"
+            android:textSize="32sp"
+            android:textColor="#58A6FF"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:fontFamily="monospace" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Native C++ Integration"
+            android:textSize="14sp"
+            android:textColor="#8B949E"
+            android:gravity="center"
+            android:paddingBottom="32dp" />
+
+        <!-- Card 1: Engine Status -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#161B22"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ENGINE STATUS"
+                android:textSize="12sp"
+                android:textColor="#F78166"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:id="@+id/status_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Initializing..."
+                android:textSize="18sp"
+                android:textColor="#C9D1D9"
+                android:fontFamily="monospace" />
+        </LinearLayout>
+
+        <!-- Card 2: Power Calculation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#161B22"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚡ POWER COMPUTATION"
+                android:textSize="12sp"
+                android:textColor="#F78166"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:id="@+id/power_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calculating..."
+                android:textSize="18sp"
+                android:textColor="#C9D1D9"
+                android:fontFamily="monospace" />
+        </LinearLayout>
+
+        <!-- Card 3: String Transformation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#161B22"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" STRING MANIPULATION"
+                android:textSize="12sp"
+                android:textColor="#F78166"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:id="@+id/string_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Processing..."
+                android:textSize="16sp"
+                android:textColor="#C9D1D9"
+                android:fontFamily="monospace" />
+        </LinearLayout>
+
+        <!-- Card 4: Array Minimum -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#161B22"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ARRAY ANALYTICS"
+                android:textSize="12sp"
+                android:textColor="#F78166"
+                android:textStyle="bold"
+                android:letterSpacing="0.1"
+                android:paddingBottom="12dp" />
+
+            <TextView
+                android:id="@+id/array_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Analyzing..."
+                android:textSize="18sp"
+                android:textColor="#C9D1D9"
+                android:fontFamily="monospace" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
